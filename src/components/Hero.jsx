@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
@@ -18,29 +18,31 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
               Hi, I'm <span className="text-blue-600">Ashu Tiwari</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-700 mb-6">
-              Full Stack Developer | IIT Tirupati
+            <h2 className="text-2xl md:text-3xl text-gray-700 mb-4">
+              Founding Engineer @ DroneNova
             </h2>
-            <p className="text-gray-700 text-lg mb-8 max-w-lg">
-              I create beautiful, responsive web applications with modern technologies.
-              Passionate about clean code and great user experiences.
+            <h3 className="text-xl md:text-2xl text-blue-600 mb-6">
+              Full Stack, AI/ML & IoT Specialist
+            </h3>
+            <p className="text-gray-700 text-lg mb-4 max-w-lg">
+              Building cutting-edge drone software solutions, integrating AI/ML with embedded systems,
+              and creating full-stack applications.
+            </p>
+            <p className="text-gray-600 text-md mb-8 max-w-lg">
+              🎓 B.Tech from IIT Tirupati
             </p>
 
             {/* Social Links */}
             <div className="flex gap-4 mb-8 justify-center md:justify-start">
-              <a href="https://github.com" target="_blank" rel="noreferrer"
+              <a href="https://github.com/tashu0711" target="_blank" rel="noreferrer"
                 className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all">
                 <FaGithub size={24} className="text-gray-700" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+              <a href="https://www.linkedin.com/in/ashu-tiwari-868812288" target="_blank" rel="noreferrer"
                 className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all">
                 <FaLinkedin size={24} className="text-blue-600" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer"
-                className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all">
-                <FaTwitter size={24} className="text-blue-400" />
-              </a>
-              <a href="mailto:your.email@example.com"
+              <a href="mailto:tashu0711@gmail.com"
                 className="p-3 bg-white rounded-full shadow-md hover:shadow-lg hover:scale-110 transition-all">
                 <HiMail size={24} className="text-red-500" />
               </a>
@@ -72,13 +74,11 @@ const Hero = () => {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 p-2 shadow-2xl">
               <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                {/* Replace this with your actual image */}
                 <img
-                  src="https://via.placeholder.com/400"
-                  alt="Profile"
+                  src="/images/profile.jpeg"
+                  alt="Ashu Tiwari - Founding Engineer @ DroneNova"
                   className="w-full h-full object-cover"
                 />
-                {/* Temporary placeholder - replace src with your photo */}
               </div>
             </div>
           </motion.div>

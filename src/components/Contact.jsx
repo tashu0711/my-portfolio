@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                <p className="text-gray-600">your.email@example.com</p>
+                <p className="text-gray-600">tashu0711@gmail.com</p>
               </div>
             </div>
 
@@ -40,8 +40,8 @@ const Contact = () => {
                 <FaPhone className="text-blue-600" size={24} />
               </div>
               <div>
-                <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                <p className="text-gray-600">+91 1234567890</p>
+                <h3 className="font-semibold text-gray-800 mb-1">GitHub</h3>
+                <a href="https://github.com/tashu0711" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">github.com/tashu0711</a>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-1">Location</h3>
-                <p className="text-gray-600">Your City, India</p>
+                <p className="text-gray-600">India</p>
               </div>
             </div>
           </motion.div>
