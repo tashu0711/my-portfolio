@@ -4,41 +4,51 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
+
     {
       id: 1,
       title: 'Drone Soccer Analytics Platform',
-      description: 'Real-time drone performance analytics system with live dashboard, Socket.io integration for match updates, and gyro sensor data processing from ESP32/Flight Controllers',
+      description: 'Real-time drone performance analytics and live scoreboard system with Socket.io integration, ESP32/Flight Controller telemetry, gyro sensor data processing, and tournament management',
       tech: ['MERN', 'Socket.io', 'ESP32', 'FastAPI'],
-      demo: '#',
+      demo: 'https://drone-arena-frontend.vercel.app/',
       code: 'https://github.com/tashu0711',
-      image: 'https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=DroneNova+Analytics',
+      image: 'https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Drone+Analytics',
     },
     {
       id: 2,
-      title: 'ESP32 Computer Vision System',
-      description: 'Edge computing-based boat detection system using ESP32 with server-side ML processing via Flask and real-time video streaming',
-      tech: ['ESP32', 'Flask', 'OpenCV', 'Python'],
-      demo: '#',
+      title: 'DroneNova India - Company Website',
+      description: 'Official company website for DroneNova India showcasing drone technology, products, services, and innovations with modern responsive design and SEO optimization',
+      tech: ['React', 'Next.js', 'Tailwind CSS', 'Vercel'],
+      demo: 'https://dronenovaindia.com/',
       code: 'https://github.com/tashu0711',
-      image: 'https://via.placeholder.com/400x250/10B981/FFFFFF?text=Computer+Vision',
+      image: 'https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=DroneNova+India',
     },
     {
       id: 3,
+      title: 'Dalit Film Circle Platform',
+      description: 'Networking platform connecting film industry professionals (producers, writers, directors, actors) to create opportunities and foster collaboration in the Dalit community',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      demo: 'https://dalit-film-circle.vercel.app/',
+      code: 'https://github.com/tashu0711',
+      image: 'https://via.placeholder.com/400x250/10B981/FFFFFF?text=Film+Circle',
+    },
+    {
+      id: 4,
       title: 'STM32 Automated Medicine Factory',
       description: 'Modular factory automation system with AI/ML integrated in STM32 microcontroller for intelligent object detection and automated production',
       tech: ['STM32', 'Embedded C', 'AI/ML', 'Sensors'],
       demo: '#',
       code: '#',
-      image: 'https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=STM32+Factory',
+      image: 'https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=STM32+Factory',
     },
     {
-      id: 4,
-      title: 'Full Stack Web Applications',
-      description: 'Modern web applications built with MERN stack, React Native for mobile, featuring real-time features, authentication, and responsive design',
-      tech: ['React', 'Node.js', 'MongoDB', 'React Native'],
-      demo: '#',
+      id: 5,
+      title: 'Coaching LMS Platform',
+      description: 'Learning Management System for coaching institutes with student-teacher login, real-time communication, assignment management, rating system, and progress tracking',
+      tech: ['MERN', 'React', 'Node.js', 'MongoDB'],
+      demo: 'https://internship-pr.vercel.app/',
       code: 'https://github.com/tashu0711',
-      image: 'https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=Web+Apps',
+      image: 'https://via.placeholder.com/400x250/EC4899/FFFFFF?text=LMS+Platform',
     },
   ];
 
@@ -84,6 +94,7 @@ const Projects = () => {
                 <div className="flex gap-4">
                   <a
                     href={demo}
+                    target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                   >
                     <FaExternalLinkAlt size={16} />
@@ -91,6 +102,7 @@ const Projects = () => {
                   </a>
                   <a
                     href={code}
+                    target="_blank" rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
                   >
                     <FaGithub size={16} />

@@ -22,7 +22,7 @@ const Hero = () => {
               Founding Engineer @ DroneNova
             </h2>
             <h3 className="text-xl md:text-2xl text-blue-600 mb-6">
-              Full Stack, AI/ML & IoT Specialist
+              Full Stack, AI/ML & IoT Developer
             </h3>
             <p className="text-gray-700 text-lg mb-4 max-w-lg">
               Building cutting-edge drone software solutions, integrating AI/ML with embedded systems,
